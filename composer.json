@@ -16,8 +16,14 @@
             "homepage": "http://www.mybuilder.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/seferov/cronos"
+        }
+    ],
     "require": {
-        "mybuilder/cronos": "~2.0",
+        "mybuilder/cronos": "dev-timezone",
         "doctrine/annotations": "1.*",
         "symfony/console": "~2.7|~3.0",
         "symfony/framework-bundle": "~2.7|~3.0",
